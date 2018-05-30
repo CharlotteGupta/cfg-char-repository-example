@@ -5,7 +5,7 @@ body{
 header{
   background: #829C79;
   border-bottom: 1px solid #ccc;
-  top: 0;
+  top: 3;
   left: 0;
   width: 100%;
   z-index: 20;
@@ -43,6 +43,10 @@ header{
         {
           color:  #FF7F50;
         }
+        .fa-question-circle:hover
+        {
+          color: purple;
+        }
 h1 {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
   color: black;
@@ -59,6 +63,6 @@ h3{
   }
 p {
   font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-  color: white
+  color: black;
 }
 .container{}
